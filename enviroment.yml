@@ -1,0 +1,7 @@
+name: musica
+channels:
+  - defaults
+dependencies:
+  - python
+  - numpy
+prefix: /home/harv/anaconda3/envs/musica
