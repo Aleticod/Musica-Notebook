@@ -72,9 +72,7 @@ Lo anterior retornara 20 notas sigulares de sonidos de violin y los scripts son 
 * matplotlib
 * scipy
 
-`$ conda install numpy`
-`$ conda install matplotlib`
-`$ conda install scipy`
+`$ conda install numpy matplotlib scipy`
 
 **Segundo.-** Para el uso de los modulos haremos uso del directorio `testDownload`, el cual le pasaremos como argumento del parametro (inputDir) y el par de indices del descriptor (descInput). Asegurarnos que solo debe haber 3 sonidos de intrumentos dentro del directorio `testDownload`.
 
@@ -83,6 +81,7 @@ Lo anterior retornara 20 notas sigulares de sonidos de violin y los scripts son 
 **Cuarto.-** Dentro del codigo modificamos las variables `inputDir` y `descInput`, segun a la ruta de nuestro directorio donde se encuntra los sonidos descargados, y las el par de conbinaciones de descriptores respectivamente.
 
 `inputDir = "./testDownload"`
+
 `descInput = (3, 6)`
 
 **Quinto.-** Analizar la grafica y ver con que par de descriptores se genera un mejor agrupamiento de los sonidos.
