@@ -86,3 +86,7 @@ Lo anterior retornara 20 notas sigulares de sonidos de violin y los scripts son 
 
 **Quinto.-** Analizar la grafica y ver con que par de descriptores se genera un mejor agrupamiento de los sonidos.
 
+## Parte 3: Agrupamiento de sonidos usando K-means
+
+
+## Parte 4: Clacificacion de sonidos con k-NN
