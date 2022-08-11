@@ -16,13 +16,14 @@ En este ejercicio, usaremos descriptores de sonidos que han sido pre-computados 
 #### Distancia Euclidiana
 La distancia Euclidiana es la distancia de una linea recta entre dos puntos en un espacio n-dimensional, asi la distancia entre dos puntos $p$ y $q$ es la longitud del segmento de linea que los conecta. Si $p = (p_1, p_2,...,p_n)$ y $q = (q_1, q_2,...,q_n)$ son dos puntos en el n-espacio Euclidiano, luego la distancia, $d$, desde $p$ a $q$, o desde $q$ a $p$ esta dado por la formula de pitagoras:
 
-$ d(p,q) = \sqrt{\sum^n_{i=1} (q_i - p_i)^2} $
+$d(p,q) = \sqrt{\sum^n_{i=1} (q_i - p_i)^2}$
 
 ### Agrupamiento k-means (k-means)
 El agrupamiento ***k-means*** es un metodo de cuantificacion vectorial que es popular en el analisis de agrupamiento en la mineria de datos.
 el agrupamiento ***k-means*** tiene como objetivo dividir en $n$ observaciones dentro de $k$ grupos in el cual cada observacion pertenece a un grupo con el significado mas cercano, sirviendo como un prototipo de grupos. el problema es computacionalmente dificil (NP-hard), sin embargo, eficientes algoritmos euristicos convergen rapidamente local optimo.
 
 Dado un conjunto de observaciones $(x_1, x_2, ..., x_n)$, donde cada observacion es un vector real d-dimesional, el agrupamiento k-means tiene como objetivo dividir las $n$ observaciones en $k (<= n)$ conjuntos $S = {S_1, S_2, ..., S_k}$ asi minimizar la suma de cuadrados de los clusters internos, el objetivo es encontrar:
+
 $\underset{\mathbf{S}} {\operatorname{arg\,min}}  \sum_{i=1}^{k} \sum_{\mathbf x \in S_i} \left\| \mathbf x - \boldsymbol\mu_i \right\|^2 = \underset{\mathbf{S}} {\operatorname{arg\,min}}  \sum_{i=1}^k |S_i| \operatorname{Var} S_i$, donde $μ_i$ es el significado de los puntos $S_i$.
 
 # Desarrollo del ejercicio
@@ -62,3 +63,4 @@ Para llamar a la funcion `download_sound_freesound()` tendremos que escoger el q
 >`download_sound_freesound(queryText="violin", API_Key=<tu key>, outputDir="./testDownload", topNResults=20, duration=(0, 8.5), tag="single-note")`
 
 Lo anterior retornara 20 notas sigulares de sonidos de violin y los scripts son almacenados en la ruta `./testDownload`. Para este ejercicio debemos descargar 3 sonidos, para ello podemos elegir algunos de estos intrumentos (violin, guitar, bassoon, trumpet, clarinet, cello, naobo).
+
