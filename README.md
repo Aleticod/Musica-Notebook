@@ -24,7 +24,7 @@ el agrupamiento ***k-means*** tiene como objetivo dividir en $n$ observaciones d
 
 Dado un conjunto de observaciones $(x_1, x_2, ..., x_n)$, donde cada observacion es un vector real d-dimesional, el agrupamiento k-means tiene como objetivo dividir las $n$ observaciones en $k (<= n)$ conjuntos $S = {S_1, S_2, ..., S_k}$ asi minimizar la suma de cuadrados de los clusters internos, el objetivo es encontrar:
 
-$\underset{\mathbf{S}} {\operatorname{arg\,min}}  \sum_{i=1}^{k} \sum_{\mathbf x \in S_i} \left\| \mathbf x - \boldsymbol\mu_i \right\|^2 = \underset{\mathbf{S}} {\operatorname{arg\,min}}  \sum_{i=1}^k |S_i| \operatorname{Var} S_i$, donde $μ_i$ es el significado de los puntos $S_i$.
+$\underset{\mathbf{S}} {\operatorname{arg\,min}}  \sum_  {i=1}^{k} \sum_{\mathbf x \in S_i} \left\| \mathbf x - \boldsymbol\mu_i \right\|^2 = \underset{\mathbf{S}} {\operatorname{arg\,min}}  \sum_  {i=1}^k |S_i| \operatorname{Var} S_i$, donde $μ_i$ es el significado de los puntos $S_i$.
 
 # Desarrollo del ejercicio
 ## Parte 1: Descarga de sonidos y descriptores desde Freesound
