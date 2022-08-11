@@ -4,4 +4,6 @@ channels:
 dependencies:
   - python
   - numpy
+  - matplotlib
+  - scipy
 prefix: /home/harv/anaconda3/envs/musica

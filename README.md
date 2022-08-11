@@ -64,3 +64,26 @@ Para llamar a la funcion `download_sound_freesound()` tendremos que escoger el q
 
 Lo anterior retornara 20 notas sigulares de sonidos de violin y los scripts son almacenados en la ruta `./testDownload`. Para este ejercicio debemos descargar 3 sonidos, para ello podemos elegir algunos de estos intrumentos (violin, guitar, bassoon, trumpet, clarinet, cello, naobo).
 
+## Parte 2:Seleccione dos descriptores para un buen agrupamiento de sonido
+
+**Primero.-** Instalamos dependecias que nos permitiran graficar con python, para ello instalamos las librarias en nuestro ambiente virtual:
+
+* numpy
+* matplotlib
+* scipy
+
+`$ conda install numpy`
+`$ conda install matplotlib`
+`$ conda install scipy`
+
+**Segundo.-** Para el uso de los modulos haremos uso del directorio `testDownload`, el cual le pasaremos como argumento del parametro (inputDir) y el par de indices del descriptor (descInput). Asegurarnos que solo debe haber 3 sonidos de intrumentos dentro del directorio `testDownload`.
+
+**Tercero.-** Eleccion de un buen par de descriptores para los sonidos que fueron descargados en parte 1. Un buen par de descriptores conduce a puntos de distribucion donde todos los sonidos de un instrumento se agrupan juntos, con una buena separacion de los otros agrupamientos de instrumentos. Intentar diferentes combinaciones de pares de descriptores.
+
+**Cuarto.-** Dentro del codigo modificamos las variables `inputDir` y `descInput`, segun a la ruta de nuestro directorio donde se encuntra los sonidos descargados, y las el par de conbinaciones de descriptores respectivamente.
+
+`inputDir = "./testDownload"`
+`descInput = (3, 6)`
+
+**Quinto.-** Analizar la grafica y ver con que par de descriptores se genera un mejor agrupamiento de los sonidos.
+
