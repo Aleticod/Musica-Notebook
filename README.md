@@ -72,7 +72,7 @@ Lo anterior retornara 20 notas sigulares de sonidos de violin y los scripts son 
 * matplotlib
 * scipy
 
-`$ conda install numpy matplotlib scipy`
+`$ conda install numpy=1.21 matplotlib scipy`
 
 **Segundo.-** Para el uso de los modulos haremos uso del directorio `testDownload`, el cual le pasaremos como argumento del parametro (inputDir) y el par de indices del descriptor (descInput). Asegurarnos que solo debe haber 3 sonidos de intrumentos dentro del directorio `testDownload`.
 
