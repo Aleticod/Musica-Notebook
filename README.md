@@ -3,7 +3,7 @@
 * GODOY LACUTA, Cristian Ayrthon
 * NOA LLASCCANOA, Eliazar
 * PFOCCORI QUISPE, Alex Harvey
-* MAYTA SALAZAR, Herberth Claudio
+* MAYTA SALAZAR, Herberth Claudd
 
 # Tema: Descripcion del sonido y musica
 Para describir el sonido con metodos simples de Machine Learning se hara uso de una API "Freesound" para cargar descriptores de sonido precomputados y desarrollar agrupacion y clasificacion de sonidos.
