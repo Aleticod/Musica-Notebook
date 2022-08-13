@@ -1,14 +1,14 @@
-# CURSO DE MUSICA
+# CURSO DE MÚSICA
 ### Integrantes
 * GODOY LACUTA, Cristian Ayrthon
 * NOA LLASCCANOA, Eliazar
 * PFOCCORI QUISPE, Alex Harvey
 * MAYTA SALAZAR, Herberth Claudd
 
-# Tema: Descripcion del sonido y musica
-Para describir el sonido con metodos simples de Machine Learning se hara uso de una API "Freesound" para cargar descriptores de sonido precomputados y desarrollar agrupacion y clasificacion de sonidos.
+# Tema: Descripción del sonido y música
+Para describir el sonido con métodos simples de Machine Learning se hará uso de una API "Freesound" para cargar descriptores de sonido precomputados y desarrollar agrupación y clasificación de sonidos.
 
-Este tema consistira en cuatro partes: 1) Descarga de sonidos y descriptores desde ***Freesound***, 2) Seleccionar dos descriptores para una buena agrupar de sonido, 3) Agrupar sonidos usando ***k-means***, y 4) Clasificar sonidos usando ***k-NN***.
+Este tema consistirá en cuatro partes: 1) Descarga de sonidos y descriptores desde ***Freesound***, 2) Seleccionar dos descriptores para una buena agrupar de sonido, 3) Agrupar sonidos usando ***k-means***, y 4) Clasificar sonidos usando ***k-NN***.
 
 ### Conceptos Relevantes
 
