@@ -92,6 +92,27 @@ Lo anterior retornara 20 notas sigulares de sonidos de violin y los scripts son 
 **Quinto.-** Analizar la grafica y ver con que par de descriptores se genera un mejor agrupamiento de los sonidos.
 
 ## Parte 3: Agrupamiento de sonidos usando K-means
+Despues de visualizar los descriptores del sonido en un diagrama de dispersion 2D de todos los sonidos usando los mejores descriptores, ahora se agruparan los sonidos usando mas de dos descriptores. Puede usar tantos descriptores como necesite para para la mejor clasificacion.
 
+usamos los mismos sonidos obtendos en la tarea 1, a partir de los descriptores que encontró que eran buenos en la Tarea 2 y luego agregando otros descriptores que crea que pueden mejorar la agrupación de sonidos
+### Funcion cluster_sounds(targetDir, nCluster = -1, descInput=[])
+Toma la carpeta de sonidos (targetDir), número de clústeres (nCluster) y los índices del descriptor (descInput) como entrada. Luego realiza un agrupamiento de medios usando los descriptores seleccionados.
+
+**Primero.-** Asegurese de que el targeDir solo tenga 3 instrumentos elegidos ubicados en la carpeta de descarga testDownload
+`targetDir = "./testDownload"`
+Puede usar tantos descriptores como necesite para lograr un buen rendimiento de agrupación y clasificación. Sin embargo, es mejor usar la menor cantidad posible de descriptores para que sea más fácil explicar la contribución de cada descriptor
+
+**Segundo.-** Elija el numero de cluster para que sea el mismo que el número de instrumentos (es decir, 3). 
+`nCluster = 3`
+Idealmente, en tal caso, todos los sonidos de un instrumento deberían ir en un solo grupo. Sin embargo, en realidad, puede haber sonidos que son atípicos y pueden ir a un grupo diferente
+
+**Tercero.-** Elija los indices descriptivos (descInput el cual es una lista de los indicies de los descriptores a utilizar.
+`descInput=[13, 16]`
+
+**Cuarto .-** Funcionamiento del algorìtmo K - means
+El algoritmo toma un voto mayoritario sobre los sonidos en cada uno de los tres grupos y asigna cada grupo a un instrumento.
+
+**Quinto .-** Calculamos el rendimiento de la agrupación comprobando la cantidad de puntos (sonidos) que se han asignado incorrectamente a una agrupación. La función clusterSounds() imprime los clusters y los sonidos asignados a cada uno. La función también imprime la clasificación resultante obtenida con la elección de descriptores que realizó.
 
 ## Parte 4: Clacificacion de sonidos con k-NN
+
